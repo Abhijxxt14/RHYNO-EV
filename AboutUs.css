@@ -1,17 +1,27 @@
 body{
     background-color: black;
 }
-
+.Abt-us{
+    background-color: black;
+    height: fit-content;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    backdrop-filter: blur(5px);
+    
+}
 h1{
     font-size: 50px;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lato';
     text-align: center;
 }
 p{
+    font-size: 30px;
     padding-left: 40px;
-    color: white;
-    font-family:"https://fonts.google.com/specimen/Poppins";
+    color:white;
+    font-family:'Poppins' ;
     text-align: center;
 }
 footer{
