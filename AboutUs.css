@@ -2,11 +2,12 @@ body{
     background-color: rgba(83, 80, 80,40%);
 }
 div {
-    position: relative;
-    top: 80px;
-    left: 100px;
-    width: 1080px;
-    height: 500px;
+   position: relative;
+    top: 50vh; 
+    left: 50vw; 
+    transform: translate(-50%, -50%);
+    width: 80vw; 
+    height: 60vh;
     padding: 100px;
     border: 7px solid rgb(67, 65, 65);
   }
