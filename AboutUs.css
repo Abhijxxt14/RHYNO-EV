@@ -1,16 +1,16 @@
 body{
-    background-color: rgba(83, 80, 80,40%);
+    background-color: black;
 }
 
 h1{
     font-size: 50px;
-    color:  #EDEDED;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 p{
     padding-left: 40px;
-    color: #EDEDED;
+    color: white;
     font-family:"https://fonts.google.com/specimen/Poppins";
     text-align: center;
 }
