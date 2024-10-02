@@ -49,7 +49,7 @@ nav ul li ul.dropdown {
   padding: 10px 0;
   border-radius: 5px;
   min-width: 150px; 
-  z-index: 1;
+  z-index: 1; 
 }
 
 nav ul li:hover ul.dropdown {
