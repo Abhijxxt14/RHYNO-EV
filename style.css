@@ -48,8 +48,8 @@ nav ul li ul.dropdown {
   list-style: none;
   padding: 10px 0;
   border-radius: 5px;
-  min-width: 150px; /* added this to ensure the dropdown menu is wide enough */
-  z-index: 1; /* added this to ensure the dropdown menu is on top of other elements */
+  min-width: 150px; 
+  z-index: 1;
 }
 
 nav ul li:hover ul.dropdown {
