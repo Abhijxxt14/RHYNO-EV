@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+h1{
+    font-size: 50px;
+    color: #202020;
+    font-family: "https://fonts.google.com/specimen/Lato";
+    text-align: center;
+   
+}
+footer{
+    padding-top: 320px;
+}
+ul{
+    color: #202020;
+}
