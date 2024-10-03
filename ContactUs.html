@@ -6,32 +6,62 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="./style.css">
     <style>
- body{
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #FFFFFF; 
+        body {
+            background-color: black;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
 
-}
-h1{
-    font-size: 50px;
-    color: #ffffff;
-    font-family: "https://fonts.google.com/specimen/Lato";
-    text-align: left;
-    position: relative;
-    top: 90px;
+        .contact-container {
+            background-color: rgba(255, 255, 255, 0.062);
+            height: fit-content;
+            text-align: center;
+            width: 60%;
+            position: relative;
+            left: 20%;
+            backdrop-filter: blur(8px);
+            border-radius: 15px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
-   
-}
-.cntct-us{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    left: 28%;
-    bottom: 10px;
-}
-footer{
-    padding-top: 320px;
-}
-</style>
+        .contact-container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 50px rgba(255, 255, 255, 0.2);
+        }
+
+        h1 {
+            font-size: 50px;
+            color: white;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+            font-size: 22px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .contact-info li {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            padding-top: 100px;
+            text-align: center;
+            color: white;
+            font-size: 16px;
+            font-family: 'Lato', sans-serif;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -44,27 +74,29 @@ footer{
                 <li><a href="./AboutUs.html" target="_self">About Us</a></li>
                 <li><a href="#">Products</a>
                     <ul class="dropdown">
-                        <li><a href="./Products.html" target="_self"></a>SE03 Lite</a></li>
-                        <li><a href="./Products.html" target="_self"></a>SE03</a></li>
-                        <li><a href="./Products.html" target="_self"></a>SE03 Max</a></li>
-                        <li><a href="./Products.html" target="_self"></a>Compare All</a></li>
+                        <li><a href="./Products.html" target="_self">SE03 Lite</a></li>
+                        <li><a href="./Products.html" target="_self">SE03</a></li>
+                        <li><a href="./Products.html" target="_self">SE03 Max</a></li>
+                        <li><a href="./Compare.html" target="_self">Compare All</a></li>
                     </ul>
                 </li>
                 <li><a href="./Rentals.html" target="_self">Rentals</a></li>
                 <li><a href="./ContactUs.html" target="_self">Contact Us</a></li>
-               
             </ul>
         </nav>
     </header>
-    <h1>Contact Us :-</h1>
-    <div class = "cntct-us">
-        <ul>
-            <li input type="Mail">Mail: info@rhyno.in</li><br>
-            <li input type="number">Mobile no.: +91-9023987528</li><br>
-            <li> Location: Rhyno Wheels Private limited, Near UG hostel gate #2, Behind PDEU,
-                 Raisan, Gandhinagar, Gujarat, India.</li><br>
-        </ul>
+
+    <div class="contact-container">
+        <h1><b><u>Contact Us</u></b></h1>
+        <div class="contact-info">
+            <ul>
+                <li><strong>Mail:</strong> info@rhyno.in</li>
+                <li><strong>Mobile no.:</strong> +91-9023987528</li>
+                <li><strong>Location:</strong> Rhyno Wheels Private Limited, Near UG Hostel Gate #2, Behind PDEU, Raisan, Gandhinagar, Gujarat, India.</li>
+            </ul>
+        </div>
     </div>
+
     <footer>
         <div class="footer-links">
             <a href="#">Privacy Policy</a>
@@ -80,3 +112,4 @@ footer{
 
 </body>
 </html>
+
