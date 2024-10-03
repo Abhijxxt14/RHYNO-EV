@@ -11,7 +11,7 @@ body {
 
 header {
   background-color: rgba(37, 37, 37, 0.9); 
-  padding: 20px;
+  padding: 10px;
   backdrop-filter: blur(5px); 
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
   position: sticky;
@@ -20,7 +20,8 @@ header {
 }
 
 .logo img {
-  width: 140px;
+  height:60px;
+  width: 150px;
   filter: brightness(1.2); 
 }
 
@@ -282,25 +283,10 @@ nav ul li ul.dropdown:hover {
 .social-icons img {
   width: 30px;
   margin: 0 10px;
-  filter: drop-shadow(0px 0px 10px #F9ED32); 
+  filter: drop-shadow(0px 0px 2px #F9ED32); 
 }
 
 ::-webkit-scrollbar {
   width: 12px; 
-}
-
-::-webkit-scrollbar-track {
-  background: #252525; 
-  border-radius: 10px; 
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #F9ED32; 
-  border-radius: 10px; 
-  border: 2px solid #131313;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #FFF225; 
 }
 
