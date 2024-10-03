@@ -290,3 +290,17 @@ nav ul li ul.dropdown:hover {
   width: 12px; 
 }
 
+::-webkit-scrollbar-track {
+  background: #252525; 
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #F9ED32; 
+  border-radius: 10px; 
+  border: 2px solid #131313;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #FFF225; 
+}
