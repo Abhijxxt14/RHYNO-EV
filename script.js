@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let carouselIndex = 0;
     
     function showNextItem() {
-        carouselIndex = (carouselIndex + 1) % itemCount; // Increment and wrap around
-        carouselItems.style.transform = `translateX(-${carouselIndex * (100 / itemCount)}%)`; // Move the carousel
+        carouselIndex = (carouselIndex + 1) % itemCount; 
+        carouselItems.style.transform = `translateX(-${carouselIndex * (100 / itemCount)}%)`;
     }
 
     setInterval(showNextItem, 5000);
